@@ -9,9 +9,9 @@ function generateBoard() {
 
             // color squares alternatively
             if ((rank + square) % 2 == 0) {
-                cell.style.backgroundColor = "#ffffff";
+                cell.style.backgroundColor = "#ecd3b9";
             } else {
-                cell.style.backgroundColor = "#000000";
+                cell.style.backgroundColor = "#a16f5a";
             }
 
             chessboard.appendChild(cell);
