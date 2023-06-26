@@ -1,6 +1,10 @@
+:root {
+    --cell-size: 800px;
+}
+
 .board {
-    width: 400px;
-    height: 400px;
+    width: var(--cell-size);
+    height: var(--cell-size);
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
