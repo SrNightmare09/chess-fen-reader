@@ -2,6 +2,9 @@
 
 A chess FEN reader which generates a board based on the FEN input.
 
+<img src="assets/preview.jpg" width="50%"></img>
+###### *FEN: r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1*
+
 ## Roadmap
 - [ ] Take input from user directly in browser using `input()` window
 - [ ] Allow flipping the board
