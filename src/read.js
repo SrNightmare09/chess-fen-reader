@@ -3,7 +3,7 @@ var fen = "4k2r/6r1/8/8/8/8/3R4/R3K3";
 const pieceRegex = '[bpqrknBPQRKN]'
 const numRegex = '[12345678]'
 
-let pieces = [
+var pieces = [
     [],
     [],
     [],
@@ -40,11 +40,7 @@ function resolvePieces() {
         }
 
         indexCount++;
-
     }
 
-    // console.log(pieces)
-
+    return pieces;
 }
-
-resolvePieces();
