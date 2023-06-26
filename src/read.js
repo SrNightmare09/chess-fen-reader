@@ -1,4 +1,4 @@
-var fen = "4k2r/6r1/8/8/8/8/3R4/R3K3";
+var fen = "r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1";
 
 const pieceRegex = '[bpqrknBPQRKN]'
 const numRegex = '[12345678]'
