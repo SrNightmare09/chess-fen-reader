@@ -18,4 +18,4 @@ A chess FEN reader which generates a board based on the FEN input.
 If you wish to contribute, make sure to read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) and [Contributing guidelines](CONTRIBUTING.md) before doing so. 
 
 ## License
-This project is licensed under the [MIT License](LICENSE.md)
+This project is licensed under the [MIT License](LICENSE.md).
