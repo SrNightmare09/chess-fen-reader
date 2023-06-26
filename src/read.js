@@ -43,7 +43,7 @@ function resolvePieces() {
 
     }
 
-    console.log(pieces)
+    // console.log(pieces)
 
 }
 
