@@ -6,8 +6,3 @@
     grid-template-rows: repeat(8, 1fr);
     background-color: #f2f2f2;
 }
-
-.cell {
-    background-color: #ffffff;
-    border: 1px solid black;
-}
