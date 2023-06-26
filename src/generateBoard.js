@@ -29,8 +29,6 @@ function generateBoard() {
             chessboard.appendChild(cell);
         }
     }
-
-    console.log(position)
 }
 
 function getPiece(char) {
