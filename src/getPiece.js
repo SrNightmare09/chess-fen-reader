@@ -9,12 +9,7 @@ function getPiece(char) {
         'p': 'pawn'
     };
 
-    let uppercase;
-    if (char === char.toUpperCase()) {
-        uppercase = true;
-    } else {
-        uppercase = false;
-    }
+    let uppercase = (char === char.toUpperCase()) ? true : false;
     char = char.toLowerCase();
     var piece = pieces[char];
 
