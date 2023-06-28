@@ -13,9 +13,6 @@ function getPiece(char) {
     char = char.toLowerCase();
     var piece = pieces[char];
 
-    if (uppercase) {
-        return `white/${piece}`;
-    } else {
-        return `black/${piece}`;
-    }
+    return (uppercase) ? `white/${piece}` : `black/${piece}`;
+
 }
