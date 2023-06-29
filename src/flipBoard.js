@@ -41,7 +41,6 @@ function flipBoard() {
             fen += '/';
         }
     }
-    console.log(fen);
     generateBoard(fen);
     return fen;
 }
