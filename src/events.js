@@ -11,3 +11,10 @@ function generateDefaultBoard() {
     const defaultArrangement = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
     generateBoard(defaultArrangement);
 }
+
+const flipBoardButton = document.getElementById('flip-board-button');
+
+flipBoardButton.onclick = () => {
+    const board = document.getElementById('board');
+    flipBoard();
+}
