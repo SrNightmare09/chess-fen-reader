@@ -1,7 +1,8 @@
-function generateBoard() {
+function generateBoard(fenString) {
 
-    const position = resolvePieces();
+    removeElementsByClassName('cell');
 
+    const position = resolvePieces(fenString);
     const chessboard = document.getElementById('chessboard');
 
     for(let rank = 0; rank < 8; rank++) {
@@ -31,4 +32,10 @@ function generateBoard() {
     }
 }
 
-generateBoard();
+const removeElementsByClassName = (className) => {
+    const elements = document.querySelectorAll(`.${className}`);
+
+    elements.forEach((element) => {
+        element.parentNode.removeChild(element);
+    });
+};
