@@ -1,6 +1,6 @@
-function generateBoard() {
+function generateBoard(fenString) {
 
-    const position = resolvePieces();
+    const position = resolvePieces(fenString);
 
     const chessboard = document.getElementById('chessboard');
 
