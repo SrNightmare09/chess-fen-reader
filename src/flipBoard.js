@@ -26,7 +26,7 @@ function flipBoard() {
                 nullCount = 0;
                 var data = currentCell.getAttribute('src');
                 blackOrWhite = data.split('/')[2];
-                piece = data.split('/')[3].split('.')[0];
+                var piece = data.split('/')[3].split('.')[0];
                 var pieceChar = pieces[piece];
                 if (blackOrWhite == 'white') {
                     pieceChar = pieceChar.toUpperCase();
