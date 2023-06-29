@@ -1,6 +1,4 @@
-var fen = "r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1";
-
-function resolvePieces() {
+function resolvePieces(fenString) {
     const pieceRegex = '[bpqrknBPQRKN]'
     const numRegex = '[12345678]'
     var indexCount = 0;
@@ -16,9 +14,9 @@ function resolvePieces() {
         []
     ];
 
-    while (indexCount != fen.length) {
+    while (indexCount != fenString.length) {
 
-        let ch = fen.charAt(indexCount);
+        let ch = fenString.charAt(indexCount);
 
         if (pieceRegex.match(ch)) {
             pieces[rank].push(ch);
@@ -38,6 +36,6 @@ function resolvePieces() {
 
         indexCount++;
     }
-    
+
     return pieces;
 }
