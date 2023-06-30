@@ -1,5 +1,7 @@
 window.onload = generateDefaultBoard();
 
+var isShowCaptured = false;
+
 const button = document.getElementById('new-fen-button');
 
 button.onclick = () => {
@@ -17,6 +19,9 @@ const flipBoardButton = document.getElementById('flip-board-button');
 flipBoardButton.onclick = () => {
     const board = document.getElementById('board');
     flipBoard();
+    if (isShowCaptured) {
+        showCaptured();
+    }
 }
 
 const showCapturedPiecesButton = document.getElementById('show-captured-button');
@@ -24,4 +29,5 @@ const showCapturedPiecesButton = document.getElementById('show-captured-button')
 showCapturedPiecesButton.onclick = () => {
     const capturedPieces = document.getElementById('captured-pieces');
     showCaptured();
+    isShowCaptured = !isShowCaptured;
 }

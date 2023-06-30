@@ -4,6 +4,9 @@ function showCaptured() {
 }
 
 function generateCapturedBoard(fenString) {
+
+    removeElementsById('captured');
+
     const position = resolvePieces(fenString);
     const captured = document.getElementById('captured');
 
@@ -115,3 +118,10 @@ function getCapturedPieces() {
     return capturedFen;
 
 }
+
+const removeElementsById = (IdName) => {
+    const elements = document.getElementById(IdName);
+    while (elements.firstChild) {
+        elements.removeChild(elements.firstChild);
+    }
+};
