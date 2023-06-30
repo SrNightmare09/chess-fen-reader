@@ -22,4 +22,4 @@ If you wish to contribute, make sure to read the [CODE OF CONDUCT](CODE_OF_CONDU
 This project is licensed under the [MIT License](LICENSE.md).
 
 ## Credits
-Chess icons used in this project are from Wikimedia and are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported License. The icons were created by CBurnett, and can be found at [Wikimedia](https://commons.m.wikimedia.org/wiki/Category:SVG_chess_pieces).
+Chess icons used in this project are from Wikimedia and are licensed under the Creative Commons Attribution-Share Alike 3.0 Unported License. The icons were created by Colin M.L. Burnett, and can be found at [Wikimedia](https://commons.m.wikimedia.org/wiki/Category:SVG_chess_pieces).
