@@ -1,6 +1,8 @@
 :root {
     --cell-size: 800px;
     --piece-size: 95%;
+    --captured-cell-width: 1600px;
+    --captured-cell-height: 200px;
 }
 
 .board {
@@ -10,6 +12,15 @@
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 1fr);
     background-color: #f2f2f2;
+}
+
+.capturedBoard {
+    width: var(--captured-cell-width);
+    height: var(--captured-cell-height);
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: #ffffff;
 }
 
 .cell {

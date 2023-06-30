@@ -5,7 +5,7 @@ function generateBoard(fenString) {
     const position = resolvePieces(fenString);
     const chessboard = document.getElementById('chessboard');
 
-    for(let rank = 0; rank < 8; rank++) {
+    for (let rank = 0; rank < 8; rank++) {
         for (let square = 0; square < 8; square++) {
             var cell = document.createElement('div');
             cell.className = 'cell';
