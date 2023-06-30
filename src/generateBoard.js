@@ -18,7 +18,6 @@ function generateBoard(fenString) {
             }
 
             if (position[rank][square] != ' ') {
-                // console.log(`[${rank}, ${square}]`); // works
                 var piecePath = getPiece(position[rank][square]);
 
                 var piece = document.createElement('img');
