@@ -18,3 +18,10 @@ flipBoardButton.onclick = () => {
     const board = document.getElementById('board');
     flipBoard();
 }
+
+const showCapturedPiecesButton = document.getElementById('show-captured-button');
+
+showCapturedPiecesButton.onclick = () => {
+    const capturedPieces = document.getElementById('captured-pieces');
+    showCaptured();
+}
