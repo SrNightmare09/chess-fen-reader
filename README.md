@@ -7,9 +7,9 @@ A chess FEN reader which generates a board based on the FEN input.
 
 ## Roadmap
 - [x] Take input from user directly in browser using `prompt()` window or add an input box
-- [ ] Allow flipping the board
+- [X] Allow flipping the board
 - [ ] Add letters and number on side of board
-- [ ] Add feature showing what pieces have been captured
+- [X] Add feature showing what pieces have been captured
 - [ ] Add terminal view in webpage
 - [ ] Add board themes
 - [ ] Add piece themes
