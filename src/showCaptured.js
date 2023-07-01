@@ -21,11 +21,12 @@ function generateCapturedBoard(fenString) {
             var cell = document.createElement('div');
             cell.className = 'cell';
 
+            var pieceTheme = getTheme();
             if (i == 0) {
                 if (blackCaptured[j] != undefined) {
                     var piecePath = getPiece(blackCaptured[j]);
                     var piece = document.createElement('img');
-                    piece.src = `../images/${piecePath}.svg`;
+                    piece.src = `../images/${pieceTheme}/${piecePath}.svg`;
                     cell.appendChild(piece);
                 }
             }
@@ -33,7 +34,7 @@ function generateCapturedBoard(fenString) {
                 if (whiteCaptured[j] != undefined) {
                     var piecePath = getPiece(whiteCaptured[j]);
                     var piece = document.createElement('img');
-                    piece.src = `../images/${piecePath}.svg`;
+                    piece.src = `../images/${pieceTheme}/${piecePath}.svg`;
                     cell.appendChild(piece);
                 }
             }
