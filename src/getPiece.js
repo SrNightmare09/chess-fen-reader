@@ -9,18 +9,10 @@ function getPiece(char) {
         'p': 'pawn'
     };
 
-    let uppercase;
-    if (char === char.toUpperCase()) {
-        uppercase = true;
-    } else {
-        uppercase = false;
-    }
+    let uppercase = (char === char.toUpperCase()) ? true : false;
     char = char.toLowerCase();
     var piece = pieces[char];
 
-    if (uppercase) {
-        return `white/${piece}`;
-    } else {
-        return `black/${piece}`;
-    }
+    return (uppercase) ? `white/${piece}` : `black/${piece}`;
+
 }

@@ -1,10 +1,11 @@
-function generateBoard() {
+function generateBoard(fenString) {
 
-    const position = resolvePieces();
+    removeElementsByClassName('cell');
 
+    const position = resolvePieces(fenString);
     const chessboard = document.getElementById('chessboard');
 
-    for(let rank = 0; rank < 8; rank++) {
+    for (let rank = 0; rank < 8; rank++) {
         for (let square = 0; square < 8; square++) {
             var cell = document.createElement('div');
             cell.className = 'cell';
@@ -17,11 +18,11 @@ function generateBoard() {
             }
 
             if (position[rank][square] != ' ') {
-                // console.log(`[${rank}, ${square}]`); // works
                 var piecePath = getPiece(position[rank][square]);
 
                 var piece = document.createElement('img');
-                piece.src = `../images/${piecePath}.svg`;
+                var pieceTheme = getTheme();
+                piece.src = `../images/${pieceTheme}/${piecePath}.svg`;
                 cell.appendChild(piece);
 
             }
@@ -31,4 +32,10 @@ function generateBoard() {
     }
 }
 
-generateBoard();
+const removeElementsByClassName = (className) => {
+    const elements = document.querySelectorAll(`.${className}`);
+
+    elements.forEach((element) => {
+        element.parentNode.removeChild(element);
+    });
+};

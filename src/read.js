@@ -1,39 +1,34 @@
-var fen = "r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1";
-
-const pieceRegex = '[bpqrknBPQRKN]'
-const numRegex = '[12345678]'
-
-var pieces = [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    []
-];
-
-function resolvePieces() {
-
+function resolvePieces(fenString) {
+    const pieceRegex = '[bpqrknBPQRKN]'
+    const numRegex = '[12345678]'
     var indexCount = 0;
     var rank = 0;
+    var pieces = [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ];
 
-    while (indexCount != fen.length) {
+    while (indexCount != fenString.length) {
 
-        if (pieceRegex.match(fen.charAt(indexCount))) {
-            pieces[rank].push(fen.charAt(indexCount));
+        let ch = fenString.charAt(indexCount);
+
+        if (pieceRegex.match(ch)) {
+            pieces[rank].push(ch);
         }
 
-        if (numRegex.match(fen.charAt(indexCount))) {
-
-            for (let k = 0; k < parseInt(fen.charAt(indexCount)); k++) {
+        if (numRegex.match(ch)) {
+            for (let k = 0; k < parseInt(ch); k++) {
                 pieces[rank].push(' ')
             }
-
         }
 
-        if (fen.charAt(indexCount) == '/') {
+        if (ch == '/') {
             rank++;
             indexCount++;
             continue;

@@ -1,21 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="getPiece.js"></script>
     <script defer src="read.js"></script>
+    <script defer src="getTheme.js"></script>
     <script defer src="generateBoard.js"></script>
-    <link rel="stylesheet" href="style.css"></link>
+    <script defer src="events.js"></script>
+    <script defer src="flipBoard.js"></script>
+    <script defer src="showCaptured.js"></script>
+    <script defer src="getCurrentFen.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </link>
     <title>Document</title>
 </head>
+
 <body>
 
     <div id="chessboard" class="board"></div>
 
     <div id="button-panel">
         <button id="new-fen-button">Paste FEN</button>
+        <button id="flip-board-button">Flip Board</button>
+        <button id="show-captured-button">Show Captured</button>
+        <select name="piece-theme" id="piece-theme">
+            <option value="cburnett" selected>CBurnett</option>
+            <option value="doodle">Doodle</option>
+        </select>
     </div>
 
+    <div id="captured" class="capturedBoard"></div>
+
+
 </body>
+
 </html>
