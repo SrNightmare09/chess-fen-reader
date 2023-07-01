@@ -12,7 +12,7 @@ A chess FEN reader which generates a board based on the FEN input.
 - [X] Add feature showing what pieces have been captured
 - [ ] Add terminal view in webpage
 - [ ] Add board themes
-- [ ] Add piece themes
+- [x] Add piece themes
 - [ ] Error handling upon invalid input
 
 ## Contributing
