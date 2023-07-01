@@ -6,6 +6,6 @@ function getTheme() {
 
 selectedTheme.onchange = () => {
     getTheme();
-    const defaultArrangement = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR';
-    generateBoard(defaultArrangement);
+    currentArrangement = getCurrentFen();
+    generateBoard(currentArrangement);
 }
