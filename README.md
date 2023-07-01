@@ -16,7 +16,12 @@ A chess FEN reader which generates a board based on the FEN input.
 - [ ] Error handling upon invalid input
 
 ## Contributing
-If you wish to contribute, make sure to read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) and [Contributing guidelines](CONTRIBUTING.md) before doing so. 
+If you wish to contribute, make sure to read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) and [Contributing guidelines](CONTRIBUTING.md) before doing so.
+
+## Awesome Contributors
+<a href="https://github.com/srnightmare09/chess-fen-reader/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=srnightmare09/chess-fen-reader" />
+</a>
 
 ## License
 This project is licensed under the [MIT License](LICENSE.md).
