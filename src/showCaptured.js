@@ -1,5 +1,5 @@
 function showCaptured() {
-    var capturedPieces = getCapturedPieces();
+    var capturedPieces = getCapturedPieces(0, getCurrentFen());
     generateCapturedBoard(capturedPieces);
 }
 
@@ -45,7 +45,7 @@ function generateCapturedBoard(fenString) {
 
 }
 
-function getCapturedPieces() {
+function getCapturedPieces(x, fenString) {
     const pieces = {
         '0': 'k',
         '1': 'q',
@@ -63,7 +63,8 @@ function getCapturedPieces() {
     };
     // 1 black king, 1 black queen, 2 black rooks, 2 black knights, 2 black bishops, 8 black pawns, 1 white king, 1 white queen, 2 white rooks, 2 white knights, 2 white bishops, 8 white pawns
     var TotalPieces = [1, 1, 2, 2, 2, 8, 1, 1, 2, 2, 2, 8];
-    currentFen = getCurrentFen();
+    // currentFen = getCurrentFen();
+    currentFen = fenString;
     capturedFen = '';
     for (let i = 0; i < currentFen.length; i++) {
         switch (currentFen[i]) {
@@ -108,15 +109,22 @@ function getCapturedPieces() {
         }
     }
 
-    for (let i = 0; i < TotalPieces.length; i++) {
-        for (let j = 0; j < TotalPieces[i]; j++) {
-            capturedFen += pieces[i];
+    //parameter x = 0 for fen string, x = 1 for array
+    if (x == 0) {
+        for (let i = 0; i < TotalPieces.length; i++) {
+            for (let j = 0; j < TotalPieces[i]; j++) {
+                capturedFen += pieces[i];
+            }
+            if (i == 5) {
+                capturedFen += '/';
+            }
         }
-        if (i == 5) {
-            capturedFen += '/';
-        }
+        return capturedFen;
     }
-    return capturedFen;
+
+    if (x == 1) {
+        return TotalPieces;
+    }
 
 }
 
