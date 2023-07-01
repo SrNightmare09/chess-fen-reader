@@ -21,7 +21,8 @@ function generateBoard(fenString) {
                 var piecePath = getPiece(position[rank][square]);
 
                 var piece = document.createElement('img');
-                piece.src = `../images/${piecePath}.svg`;
+                var pieceTheme = getTheme();
+                piece.src = `../images/${pieceTheme}/${piecePath}.svg`;
                 cell.appendChild(piece);
 
             }
