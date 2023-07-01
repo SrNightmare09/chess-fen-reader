@@ -25,7 +25,7 @@ function flipBoard() {
                 }
                 nullCount = 0;
                 var data = currentCell.getAttribute('src');
-                blackOrWhite = data.split('/')[3];
+                var blackOrWhite = data.split('/')[3];
                 var piece = data.split('/')[4].split('.')[0];
                 var pieceChar = pieces[piece];
                 if (blackOrWhite == 'white') {
