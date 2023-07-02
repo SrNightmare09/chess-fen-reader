@@ -1,13 +1,18 @@
 @echo off
 
-REM GET DIRECTORY
-for %%I in ("%~dp0") do set "SCRIPT_DIR=%%~dpI"
 
-REM GET PARENT DIRS
-for %%I in (%SCRIPT_DIR%) do set "PARENT_DIR=%%~dpI"
+set REPO_URL=https://github.com/SrNightmare09/chess-fen-reader.git
 
-set REPO=chess-fen-reader
+set CLONE_DIR=%CD%
 
-git clone
+set DIR_NAME="%CD%\chess-fen-reader"
 
-start "" "%PARENT_DIR%"
+git clone %REPO_URL%
+    
+cd %CLONE_DIR%\chess-fen-reader\src\
+
+echo Current directory: %CD%
+
+set FILE_NAME="%CD%\index.html"
+
+start "" %FILE_NAME%
