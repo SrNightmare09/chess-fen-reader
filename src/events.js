@@ -6,6 +6,11 @@ const button = document.getElementById('new-fen-button');
 
 button.onclick = () => {
     let fen = prompt("Enter a valid FEN position");
+    const x = checkFen(fen);
+    if (!x) {
+        alert("Invalid FEN position");
+        return;
+    }
     generateBoard(fen);
 }
 
