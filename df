@@ -1,0 +1,474 @@
+[33mcommit 0534cf5fd5217cf7ff9967699a93c48e087ce626[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Sat Jul 1 22:29:20 2023 +0530
+
+    Feat: Add option to change board colours
+
+[33mcommit 664e2fe17bc9d690f009764c67a2d1674b0526e7[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Sat Jul 1 20:33:24 2023 +0530
+
+    Feat:Error handling upon invalid input
+
+[33mcommit 4fd1f6646f610bc395db33c884b03361f776c5e3[m[33m ([m[1;31moriginal/master[m[33m)[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 16:23:21 2023 +0530
+
+    fix: update directories of captured pieces to be visible when show captured pieces is clicked
+
+[33mcommit 144318e2923eea32b896fa9ada951dc3b12935c6[m
+Merge: 4872790 6e3f231
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 16:20:43 2023 +0530
+
+    Merge pull request #11 from AmitT98/master
+    
+    Fixes Flipboard issue
+
+[33mcommit 48727908892668b44bcd953f89974829a67d8841[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 16:17:30 2023 +0530
+
+    docs: add contributor section
+
+[33mcommit 6e3f231333fc63e4d0872025b04d2124c33ff715[m
+Author: AmitT98 <amitlives2explore@gmail.com>
+Date:   Sat Jul 1 16:10:13 2023 +0530
+
+    Fixed flipboard issue
+
+[33mcommit eacca893b8379b0deee0da1cf3a56e655e47bb94[m
+Author: AmitT98 <amitlives2explore@gmail.com>
+Date:   Sat Jul 1 16:03:23 2023 +0530
+
+    Fixed flipboard issue
+
+[33mcommit 2ee75388e86c5c7f32916aab5e87d8e01fcee071[m
+Merge: 551e72c 37fa8e2
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 15:45:11 2023 +0530
+
+    Merge pull request #9 from AmitT98/master
+    
+    Allows for changing board theme without going back to default arrangement
+
+[33mcommit 37fa8e2f03e56b9434536f6615d4a5d8e64e0070[m
+Author: AmitT98 <amitlives2explore@gmail.com>
+Date:   Sat Jul 1 14:54:24 2023 +0530
+
+    Allows for changing board theme without going back to default arrangment
+
+[33mcommit 551e72c1e2c62ce65889a6a973feccb5aff0566d[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 09:09:36 2023 +0530
+
+    docs: mark a task as completed
+
+[33mcommit 941a17ac330c895b1e415cac096e8101d05e92f3[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 09:04:13 2023 +0530
+
+    chore: add js file to script src
+
+[33mcommit 0de55858c1057766e79c7cc618a7b714df2a7d68[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 09:03:36 2023 +0530
+
+    feat: function to retrieve piece theme from dropdown
+
+[33mcommit 60ae5d4b478d4351c6f19117ce0b994360783c02[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 09:03:11 2023 +0530
+
+    feat: fetch piece theme to display selected piece theme
+
+[33mcommit c34d24f640599514649d71005b8b50643bd4cd07[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 09:00:30 2023 +0530
+
+    refactor: add whitespace at end of file
+
+[33mcommit ee45bfc861e7a8f15e24d47ec5cc438d09684158[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 08:59:58 2023 +0530
+
+    feat!: add new theme doodle
+
+[33mcommit eb45ed224361e2c5d52e8deb41e3930be1ac1c83[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 08:16:45 2023 +0530
+
+    docs: mark two tasks as complete
+
+[33mcommit 7149bd30e7a069e32585c1da942caed0b17c06b0[m
+Merge: a40823d ff701b8
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sat Jul 1 08:16:05 2023 +0530
+
+    Merge pull request #7 from Prashanth-Chandra/master
+    
+    Added feature to display the pieces which pieces have been captured
+
+[33mcommit ff701b886b0edb86f7c37ff6fabd8c894692a04f[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Sat Jul 1 02:12:22 2023 +0530
+
+    Fix: Minor errors regarding ShowCapty\ured
+
+[33mcommit 748a696862e36c2a669c08b0c3f25d6d1a3889f0[m
+Merge: bcf527e 2993a7c
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Sat Jul 1 01:59:10 2023 +0530
+
+    Merge branch 'master' of https://github.com/Prashanth-Chandra/chess-fen-reader
+
+[33mcommit bcf527ec31252a42562358f9b2335a46872362ba[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Sat Jul 1 01:57:11 2023 +0530
+
+    Feat : Added feature showing what pieces have been captured
+
+[33mcommit 2993a7c05be5e78258a00a43dbd8bc33cd761e9b[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Sat Jul 1 01:57:11 2023 +0530
+
+    Feat : Added feature showing what pieces have been captured
+
+[33mcommit a40823d67ae8ba333fa454de8ad20bed2eb9f537[m
+Merge: fad4ae4 ddf0054
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Fri Jun 30 20:19:51 2023 +0530
+
+    Merge branch 'master' of https://github.com/SrNightmare09/chess-fen-reader
+
+[33mcommit fad4ae4e80d6734f22af1b2d603cac9df4b2ba0f[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Fri Jun 30 20:19:41 2023 +0530
+
+    refactor: remove console log comment
+
+[33mcommit ddf005428965037176eb6d3b9fe3d74361c32beb[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 22:21:28 2023 +0530
+
+    docs: update name of icons author
+
+[33mcommit 1bbe1933832089c61a0509417115070e0005924d[m
+Merge: 1a74a13 def8eeb
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 18:26:08 2023 +0530
+
+    Merge pull request #6 from Prashanth-Chandra/master
+
+[33mcommit def8eeb713fb3e4501514dba790682e5096b4960[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Thu Jun 29 17:57:15 2023 +0530
+
+    Fix: Minor bug which might affect old browsers
+
+[33mcommit ae75eee4e05b39f6e02b405fd9031f61fca0a4e4[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Thu Jun 29 17:54:26 2023 +0530
+
+    Fix: Remove console log messages
+
+[33mcommit f6b0760b959b82135bf51f6196ea3f55e39fdbb4[m
+Author: Prashanth-Chandra <surekhadrk@gmail.com>
+Date:   Thu Jun 29 17:20:21 2023 +0530
+
+    feat: Added feature for user to flip board #5
+
+[33mcommit 1a74a13d1f5f6003a383a34637bdcc03175a77cf[m[33m ([m[1;32mnewBranch[m[33m)[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 16:21:02 2023 +0530
+
+    docs: update CONTRIBUTING.md
+
+[33mcommit 31b1340ec34d723a27572e8714c369ddd2a10b49[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 14:22:49 2023 +0530
+
+    docs: mark goal 1 as complete
+
+[33mcommit 16c6887eba36f16fd2084dcb210f67a75d3375fe[m
+Merge: b2587a8 af36c95
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 14:20:15 2023 +0530
+
+    Merge pull request #4 from SrNightmare09/fen-input-update
+    
+    Fen input update
+
+[33mcommit af36c959f9df4accaef8952314dde00f0ef40f45[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 14:14:57 2023 +0530
+
+    fix: board now only generates new input fen. it clears the old cells before generating new one
+
+[33mcommit b0a1356e5cae4a32f9076c659b5150394149afc1[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 14:12:56 2023 +0530
+
+    refactor: put fenString into arguments
+
+[33mcommit 3c4e1a41a1346698e1ee298e8e77f2228e3ee2b2[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 14:12:14 2023 +0530
+
+    feat!: upon loading window, default position is displayed, input is taken upon pressing button
+
+[33mcommit e8931cb42125cbf052be2faa2ec8c6c3d0e10171[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 14:11:14 2023 +0530
+
+    feat: function only runs on window load
+
+[33mcommit 8b82c72348f5b57c572fd8d89198e540f6075423[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Thu Jun 29 14:09:54 2023 +0530
+
+    refactor: remove fen variable and add it to arguments instead
+
+[33mcommit 9893869f3372010470eb64ffd274e41d35ebb334[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Wed Jun 28 22:58:47 2023 +0530
+
+    refactor: remove unnecesary whitespace
+
+[33mcommit 1dae8f04f9704209566e32eb10e96f25471d650a[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Wed Jun 28 22:56:23 2023 +0530
+
+    refactor: convert return statement from if to ternary
+
+[33mcommit 2fc3d822bd9b993d96ba5c4ad796b23fe6398ed2[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Wed Jun 28 22:53:39 2023 +0530
+
+    refactor: convert uppercase checking to ternary statement
+
+[33mcommit 18ef3979a0f2823bd3f754564ebc36378f8c2c7b[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Wed Jun 28 22:49:47 2023 +0530
+
+    style: add fen.charAt(indexCount) = ch for readability and conciseness
+
+[33mcommit fddfeacdcaf9b21f16e7bcd427e5e22f8ce74195[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Wed Jun 28 22:47:24 2023 +0530
+
+    chore: add script source in file header
+
+[33mcommit d64ad8803dcd3561c61fbc379a0035148577d396[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Wed Jun 28 22:46:48 2023 +0530
+
+    feat: add test event handler to fen button
+
+[33mcommit 0903cfcc3ddeae7befe0a7b729660c4c74cba99a[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Wed Jun 28 22:43:33 2023 +0530
+
+    refactor: move pieces and regex rules under resolvePieces()
+
+[33mcommit b2587a83e9353d2ea329e4a6183c5459b487f251[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Tue Jun 27 23:35:20 2023 +0530
+
+    docs: update task 1 of roadmap
+
+[33mcommit e304d6f6b5fe21ea3c897f0a8c43b0615a2ee557[m
+Merge: 6e9cfab f955866
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Tue Jun 27 23:31:31 2023 +0530
+
+    Merge pull request #3 from voronov007/fix/issue-1_get_piece
+    
+    Close #1
+
+[33mcommit 6e9cfab9cee0bc7676d66d7a5897515d08afd7a2[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Tue Jun 27 23:22:58 2023 +0530
+
+    docs: add credits section
+
+[33mcommit f955866643ee38b71eadc3e7aedd9b8d52736f5c[m
+Author: Andrii Voronov <voronov.a.g@gmail.com>
+Date:   Tue Jun 27 13:09:26 2023 +0200
+
+    moved getPiece to a different file;
+
+[33mcommit 11d23f12d9a7a22587baee785eb3f6b78d5b5d41[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 19:01:24 2023 +0530
+
+    docs: add new task to roadmap
+
+[33mcommit 26c5122146d4a2edb4d7609b09aae33cf5dc2ee7[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:58:58 2023 +0530
+
+    docs: add period to license sentence
+
+[33mcommit a03820747c02a4d8ab09a0e040e198dfb82843ff[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:58:20 2023 +0530
+
+    docs: add preview image and footer image
+
+[33mcommit 579c1b2a739cd863669ca76f06ae61ef091a3bad[m
+Merge: 9b9e151 a6423f0
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:57:05 2023 +0530
+
+    Merge branch 'master' of https://github.com/SrNightmare09/chess-fen-reader
+
+[33mcommit 9b9e151029f6796f55c177cd37145f8ed72c807f[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:57:02 2023 +0530
+
+    chore: add different test FEN
+
+[33mcommit a6423f078bd38a4e77c4e247d937abe4b21a3d78[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:54:42 2023 +0530
+
+    chore: delete 'test'
+
+[33mcommit 4c608c2fc8f8790d1a45a9f7e61713ffdd3fdf61[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:54:25 2023 +0530
+
+    docs: add preview.jpg
+
+[33mcommit 988cb4b1fa915a209edf7c77a40296c529f97998[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:54:04 2023 +0530
+
+    chore: create test file
+
+[33mcommit 546cd55436b2666eeb5dde389e1556287d4755a0[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:52:11 2023 +0530
+
+    docs: add 2 tasks to roadmap
+
+[33mcommit 46f428cccf4f3829e49b1863a731983868a03c10[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:50:28 2023 +0530
+
+    docs: add new roadmap task
+
+[33mcommit f4eb0bfaca9e47b5a8607e541fc6c85fc1b3e342[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:48:28 2023 +0530
+
+    docs: create CONTRIBUTING.md
+
+[33mcommit c31ad2a84f9312ed235fdf3834d563a00a8e2840[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:47:12 2023 +0530
+
+    docs: add basic outline of the project
+
+[33mcommit a3bf0bc629888ddc023661b38b5cc94068cfe3b3[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:35:34 2023 +0530
+
+    feat: add 'paste FEN' button
+
+[33mcommit 232e50be9099dd2d2310fb824af738b9181934f5[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:33:50 2023 +0530
+
+    chore: remove console message
+
+[33mcommit 1ea89efbeb9bc18002168f3123ae3ce1324c10b6[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:33:12 2023 +0530
+
+    feat!: pieces generate of good size and in center
+
+[33mcommit 5ceab3c09f899edd3afc29acb3cbac564fa6d4ce[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 18:22:50 2023 +0530
+
+    feat: add func to return path based on piece char
+
+[33mcommit e589de1200e1dde667359d1bc6aeb19b8fd1c855[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:51:31 2023 +0530
+
+    feat: change return type from void to char[][]
+
+[33mcommit 06754d5ade374f1f727a6d55136870a7122cbd01[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:46:58 2023 +0530
+
+    chore: add piece sprites
+
+[33mcommit f9a2e1917f6eb39962974d63af083c743b6ad2f9[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:20:52 2023 +0530
+
+    feat: modify size of each square on board
+
+[33mcommit dafa07f7ab8c6a9e0e3bdda25e587f054a1bb4a7[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:16:15 2023 +0530
+
+    feat: remove borders for cells
+
+[33mcommit 38e7c39a6c546e73e1a26755c3ffe21e83c5d373[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:15:38 2023 +0530
+
+    feat: change colors from black/white to darkbrown/lightbrown
+
+[33mcommit a2c70aa9651decf7f8b98234e981be1a7ca68128[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:11:35 2023 +0530
+
+    feat: generate chess board
+
+[33mcommit 5ed6ad14a754d80244af85dc311204875c00121f[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:04:56 2023 +0530
+
+    feat: add div for chessboard
+
+[33mcommit 37efad9be9d71cad6271b8fc4c38abca314d5506[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 17:02:33 2023 +0530
+
+    style: comment out console.log()
+
+[33mcommit 8177b9cd9eb915a35e2a972dabc6e508dca97a28[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 16:35:40 2023 +0530
+
+    docs: remove generated c++ gitignore format
+
+[33mcommit 191ce3231c24df0d93c44dd1fb4050cdc6a743a3[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 16:29:05 2023 +0530
+
+    feat: function can read complete position-only fen
+
+[33mcommit 0ed38d05fbde21aab253a0b7d1ffc282cf5a8781[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Mon Jun 26 15:48:03 2023 +0530
+
+    feat: add functionality to read 1 rank
+
+[33mcommit 4fe3cf363f08d7e055e44c717c695a5d28cd7b05[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sun Jun 25 21:28:41 2023 +0530
+
+    docs: create code of conduct
+
+[33mcommit 902c24b7de6e8b5ae210f63adda1171b3a0f98fa[m
+Author: SrNightmare09 <srnightmare09@gmail.com>
+Date:   Sun Jun 25 21:27:55 2023 +0530
+
+    Initial commit
