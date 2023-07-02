@@ -13,7 +13,7 @@ A chess FEN reader which generates a board based on the FEN input.
 - [ ] Add terminal view in webpage
 - [ ] Add board themes
 - [x] Add piece themes
-- [ ] Error handling upon invalid input
+- [x] Error handling upon invalid input
 
 ## Contributing
 If you wish to contribute, make sure to read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) and [Contributing guidelines](CONTRIBUTING.md) before doing so.
