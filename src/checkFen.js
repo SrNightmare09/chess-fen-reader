@@ -72,7 +72,7 @@ function checkFen(fenString) {
             }
         }
         if (rowCount != 8) {
-            customAlert("Invalid FEN position\nNumber of columns is not 8 in row " + (i + 1));
+            customAlert("Invalid FEN position\nNumber of columns in row " + (i + 1) + " is not 8");
             isValid = false;
             return isValid;
         }
