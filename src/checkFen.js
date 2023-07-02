@@ -66,13 +66,13 @@ function checkFen(fenString) {
                 rowCount++;
             }
             else {
-                customAlert("Invalid FEN position\nInvalid character present");
+                customAlert("Invalid FEN position\nInvalid character present in row " + (i + 1));
                 isValid = false;
                 return isValid;
             }
         }
         if (rowCount != 8) {
-            customAlert("Invalid FEN position\nNumber of columns is not 8");
+            customAlert("Invalid FEN position\nNumber of columns is not 8 in row " + (i + 1));
             isValid = false;
             return isValid;
         }
