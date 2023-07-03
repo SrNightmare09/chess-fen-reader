@@ -11,8 +11,6 @@ git clone %REPO_URL%
     
 cd %CLONE_DIR%\chess-fen-reader\src\
 
-echo Current directory: %CD%
-
 set FILE_NAME="%CD%\index.html"
 
 start "" %FILE_NAME%
