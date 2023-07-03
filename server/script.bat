@@ -1,13 +1,15 @@
 @echo off
 
-REM GET DIRECTORY
-for %%I in ("%~dp0") do set "SCRIPT_DIR=%%~dpI"
+@REM Get current directory
+set CLONE_DIR=%CD%
 
-REM GET PARENT DIRS
-for %%I in (%SCRIPT_DIR%) do set "PARENT_DIR=%%~dpI"
+@REM Clone repository
+set REPO_URL=https://github.com/SrNightmare09/chess-fen-reader.git
+git clone %REPO_URL%
 
-set REPO=chess-fen-reader
+@REM Navigate to the project directory
+cd %CLONE_DIR%\chess-fen-reader\src\
+set FILE_NAME="%CD%\index.html"
 
-git clone
-
-start "" "%PARENT_DIR%"
+@REM Open index.html in the default browser
+start "" %FILE_NAME%
