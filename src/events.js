@@ -4,11 +4,14 @@ var isShowCaptured = false;
 
 const button = document.getElementById('new-fen-button');
 
+function customAlert(message) {
+    alert(message);
+}
+
 button.onclick = () => {
     let fen = prompt("Enter a valid FEN position");
     const x = checkFen(fen);
     if (!x) {
-        alert("Invalid FEN position");
         return;
     }
     generateBoard(fen);
@@ -35,4 +38,10 @@ showCapturedPiecesButton.onclick = () => {
     const capturedPieces = document.getElementById('captured-pieces');
     showCaptured();
     isShowCaptured = !isShowCaptured;
+}
+
+function checkPreviousState() {
+    if (isShowCaptured) {
+        showCaptured();
+    }
 }

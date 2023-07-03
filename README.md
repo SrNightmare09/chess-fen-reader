@@ -11,7 +11,7 @@ A chess FEN reader which generates a board based on the FEN input.
 - [ ] Add letters and number on side of board
 - [X] Add feature showing what pieces have been captured
 - [ ] Add terminal view in webpage
-- [ ] Add board themes
+- [x] Add board themes
 - [x] Add piece themes
 - [x] Error handling upon invalid input
 
