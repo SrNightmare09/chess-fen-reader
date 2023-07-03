@@ -16,10 +16,10 @@ function checkFen(fenString) {
         if (fenArray[i] < 0) {
             isValid = false;
             if (i < 6) {
-                customAlert("Invalid FEN position\nNumber of black " + piece[i] + "'s is not valid");
+                customAlert("Invalid FEN position\nNumber of black " + piece[i] + " is not valid");
             }
             else {
-                customAlert("Invalid FEN position\nNumber of white " + piece[i - 6] + "'s is not valid");
+                customAlert("Invalid FEN position\nNumber of white " + piece[i - 6] + " is not valid");
             }
             return isValid;
         }
@@ -72,7 +72,7 @@ function checkFen(fenString) {
             }
         }
         if (rowCount != 8) {
-            customAlert("Invalid FEN position\nNumber of columns in row " + (i + 1) + " is not 8");
+            customAlert("Invalid FEN position\nNumber of squares in row " + (i + 1) + " is not 8");
             isValid = false;
             return isValid;
         }
