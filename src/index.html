@@ -20,25 +20,38 @@
 
 <body>
 
+<div class="container">
+    <div class="box">
+        <div class="gradient-bg"></div>
+
+        <div class="content">
+            <div class="color-text">
+                What color do you prefer:
+            </div>
+            <button style="--clr:#b58863" id="brown-theme" class="color-button"><span>Brown</span></button>
+            <button style="--clr:#769656" id="green-theme" class="color-button"><span>Green</span></button>
+            <button style="--clr:#4b7399" id="blue-theme" class="color-button"><span>Blue</span></button>
+            <button style="--clr:#fcd8dd" id="pink-theme" class="color-button"><span>Pink</span></button>
+            <div class="theme-text">
+                What theme do you prefer:
+            </div>
+            <div id="piece-theme" class="piece-button">
+                <button id="cburnett-theme" class="theme-button common-button" value="cburnett">CBurnett</button>
+                <button id="doodle-theme" class="theme-button common-button" value="doodle">Doodle</button>
+            </div>
+            <button id="new-fen-button" class="other-button common-button">Paste FEN</button>
+            <button id="flip-board-button" class="other-button common-button">Flip Board</button>
+            <button id="show-captured-button" class="other-button common-button">Show Captured</button>
+        </div>
+
+
+    </div>
     <div id="chessboard" class="board"></div>
 
-    <div id="button-panel">
-        <button id="new-fen-button">Paste FEN</button>
-        <button id="flip-board-button">Flip Board</button>
-        <button id="show-captured-button">Show Captured</button>
-        <select name="piece-theme" id="piece-theme">
-            <option value="cburnett" selected>CBurnett</option>
-            <option value="doodle">Doodle</option>
-        </select>
-        <select name="board-theme" id="board-theme">
-            <option value="brown" selected>Brown</option>
-            <option value="green">Green</option>
-            <option value="blue">Blue</option>
-            <option value="pink">Pink</option>
-        </select>
-    </div>
+</div>
 
-    <div id="captured" class="capturedBoard"></div>
+
+<div id="captured" class="capturedBoard"></div>
 
 
 </body>
