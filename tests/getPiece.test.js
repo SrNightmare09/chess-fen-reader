@@ -1,4 +1,4 @@
-const { getPiece } = require('../src/getPiece');
+import { getPiece } from '../src/getPiece';
 
 test('Check if pieces returned are valid (black)', () => {
     const blackPawn_path = getPiece('p');
