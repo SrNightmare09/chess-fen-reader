@@ -44,3 +44,25 @@
     height: var(--piece-size);
     display: block;
 }
+
+.alphabets {
+position: absolute;
+left: 40px;
+top: 800px;
+font-size: 50px;
+letter-spacing: 67px;
+}
+.numbers {
+position: absolute;
+top: 30px;
+left: 820px;
+writing-mode: vertical-rl; 
+text-orientation: upright;
+font-size: 60px;
+letter-spacing: 30px;
+}
+
+.down {
+    position: relative;
+    top: 50px;
+}
