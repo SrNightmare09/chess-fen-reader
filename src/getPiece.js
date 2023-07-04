@@ -1,4 +1,4 @@
-function getPiece(char) {
+exports.getPiece = (char) => {
 
     const pieces = {
         'k': 'king',
