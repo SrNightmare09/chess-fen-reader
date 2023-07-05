@@ -9,7 +9,7 @@ A chess FEN reader which generates a board based on the FEN input.
 
 - [x] Add numbers and letters to the side of the board
 - [ ] Add terminal board theme to site
-- [ ] Add terminal piece them to site
+- [ ] Add terminal piece theme to site
 - [ ] Make proper button panel for better UI experience
 
 ## Contributing
