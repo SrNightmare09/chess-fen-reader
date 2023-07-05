@@ -2,7 +2,7 @@ export function flipBoard() {
     var fen = '';
     var board = document.getElementById('chessboard');
     var cells = board.getElementsByClassName('cell');
-
+    var flipNum = document.getElementById("num").innerHTML
     const pieces = {
         'king': 'k',
         'queen': 'q',
@@ -42,5 +42,6 @@ export function flipBoard() {
         }
     }
     generateBoard(fen);
+    document.getElementById("num").innerHTML = flipNum.split("").reverse().join("") /*Flip numbers as well*/
     return fen;
 }

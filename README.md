@@ -5,15 +5,12 @@ A chess FEN reader which generates a board based on the FEN input.
 <img src="assets/preview.jpg" width="50%"></img>
 ###### *FEN: r1bk3r/p2pBpNp/n4n2/1p1NP2P/6P1/3P4/P1P1K3/q5b1*
 
-## Roadmap
-- [x] Take input from user directly in browser using `prompt()` window or add an input box
-- [X] Allow flipping the board
-- [ ] Add letters and number on side of board
-- [X] Add feature showing what pieces have been captured
-- [ ] Add terminal view in webpage
-- [x] Add board themes
-- [x] Add piece themes
-- [x] Error handling upon invalid input
+## [Roadmap](https://github.com/users/SrNightmare09/projects/1)
+
+- [x] Add numbers and letters to the side of the board
+- [ ] Add terminal board theme to site
+- [ ] Add terminal piece them to site
+- [ ] Make proper button panel for better UI experience
 
 ## Contributing
 If you wish to contribute, make sure to read the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) and [Contributing guidelines](CONTRIBUTING.md) before doing so.
