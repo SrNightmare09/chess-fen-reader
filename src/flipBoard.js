@@ -1,4 +1,4 @@
-function flipBoard() {
+export function flipBoard() {
     var fen = '';
     var board = document.getElementById('chessboard');
     var cells = board.getElementsByClassName('cell');
