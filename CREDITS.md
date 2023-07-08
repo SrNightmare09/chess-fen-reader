@@ -7,6 +7,7 @@
    * License: Creative Commons Attribution-Share Alike 3.0 Unported License
    * Author: Colin M.L. Burnett
 * Doodle
-    * Source: Imagination
-    * License: None
+    * Source: None
+    * License: 
     * Author: SrNightmare09
+    * Must receive permission before usage
