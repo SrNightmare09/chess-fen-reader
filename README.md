@@ -23,3 +23,4 @@ If you wish to contribute, make sure to read the [CODE OF CONDUCT](CODE_OF_CONDU
 
 ## License
 This project is licensed under the [MIT License](LICENSE.md).
+The 'Doodle' chess piece theme is a work of the project owner and is licensed under the [GNU AFFERO GENERAL PUBLIC LICENSE](images/doodle/LICENSE)
