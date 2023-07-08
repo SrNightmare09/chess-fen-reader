@@ -8,6 +8,6 @@
    * Author: Colin M.L. Burnett
 * Doodle
     * Source: None
-    * License: 
+    * License: [GNU AFFERO GENERAL PUBLIC LICENSE](images/doodle/LICENSE)
     * Author: SrNightmare09
     * Must receive permission before usage
