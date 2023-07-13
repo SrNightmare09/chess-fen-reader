@@ -11,7 +11,6 @@ A chess FEN reader which generates a board based on the FEN input.
 - [ ] Add terminal board theme to site
 - [ ] Add terminal piece theme to site
 - [ ] Make proper button panel for better UI experience
-- [ ] Add more tests
 - [ ] Add functionality to process other parts of FEN
 - [ ] Allow user to continue playing from a position
 
